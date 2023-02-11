@@ -1,0 +1,20 @@
+Naming convention for the prefabs:
+
+Add those things together to get the final name of the asset:
+
+// For the room parts:
+- 1: Add the biome type of the prefab, ie: Dungeon, Forest, Swamp etc.
+- 2: ONLY if its a border tile add: Border
+- 3: add the type of the roompart the prefab belongs too, ie: Floor, Wall, Ceiling
+- 4: Add an unique index, ie: 1,2,3
+Final names: DungeonFloor3, ForestCeiling5, ForestBorderWall2
+
+// For the room combining prefabs:
+- 1: Add the biome type of the prefab, ie: Dungeon, Forest, Swamp etc.
+- 2: ONLY if the prefab is made for a special bitmask index add: 
+	 1D (one door), 2DEW (two doors east west), 2DNS (two doors north south)
+- 3: Add Prefab keyword: Prefab
+- 4: Add an unique index, ie: 1,2,3
+Final names: DungeonPrefab3, ForestPrefab1, Dungeon1DPrefab15, Forest2DNSPrefab2
+
+
